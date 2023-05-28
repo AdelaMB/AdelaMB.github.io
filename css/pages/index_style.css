@@ -1,0 +1,44 @@
+article div img {
+    width: 100%;
+}
+
+.containerReadMore {
+    max-height: 400px;
+    /* Maximum height of the container */
+    overflow: hidden;
+    /*  Hide the excess content  */
+}
+
+.read-more {
+    color: blueviolet;
+}
+
+.show {
+    max-height: none;
+    /* Show all content when "Read more" is clicked */
+}
+
+.show+.read-more {
+    display: none;
+    /* Hide the "Read more" link after clicking */
+}
+
+.read-more-container {
+    margin-top: 10px; 
+    text-align: center; 
+  }
+  
+  .read-more {
+    color: blue; 
+    text-decoration: underline; 
+    cursor: pointer; 
+  }
+  
+  .read-more:hover {
+    color: darkblue; 
+  }
+
+
+
+
+  

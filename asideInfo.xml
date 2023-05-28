@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE asideInfo [
+  <!ELEMENT asideInfo (link*)>
+  <!ELEMENT link (text, url)>
+  <!ELEMENT text (#PCDATA)>
+  <!ELEMENT url (#PCDATA)>
+]>
+<asideInfo>
+
+    <link>
+      <text>Top 10 attractions</text>
+      <url>https://www.viajaporlibre.com/espana/aragon/que-ver-en-teruel</url>
+    </link>
+    <link>
+      <text>Restaurants</text>
+      <url>https://www.tripadvisor.es/Restaurants-g580279-Teruel_Province_of_Teruel_Aragon.html</url>
+    </link>
+    <link>
+      <text>Events calendar</text>
+      <url>https://www.turismoenteruel.es/eventos/programas-de-fiestas-teruel-2023/</url>
+    </link>
+    <link>
+      <text>Mudejar Art in Teruel</text>
+      <url>https://www.goaragon.eu/discover-the-best-of-mudejar-art-in-teruel-aragon-spain/</url>
+    </link>
+
+</asideInfo>

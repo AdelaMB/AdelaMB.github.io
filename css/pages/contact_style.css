@@ -1,0 +1,16 @@
+article div img {
+    width: 100%;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form select,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  margin-top: 10px;
+}

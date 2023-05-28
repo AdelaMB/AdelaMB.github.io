@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/common/w3.css" />
+    <link rel="stylesheet" href="./css/common/common_style.css" />
+    <link rel="stylesheet" href="./css/pages/game_style.css" />
+    <script src="./js/script-common.js"></script>
+    <script src="./js/script-game.js"></script>
+    <title>Teruel city of love. History.</title>
+</head>
+<!--
+    @media only screen and (min-width: 400px)
+    @media only screen and (min-width: 768px)
+-->
+
+<body>
+    <header class="col-12 col-s-12">
+        <h1>Teruel city of lovers.</h1>
+    </header>
+
+    <nav>
+        <ul class="menu_movil menu_drop">
+            <li>
+                <a href="#menu" class="size_icon"> <i class="fa fa-bars"></i> </a>
+                <ul>
+                    <li class="col-s-3"><a href="./index.html">Home</a></li>
+                    <li class="col-s-3"><a href="./game.html">Game</a></li>
+                    <li class="col-s-3"><a href="./contact.html">Contact</a></li>
+                    <li class="col-s-3"><a href="./gallery.html">Gallery</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="menu_pc menu_drop">
+            <li class="col-3"><a href="./index.html">Home</a></li>
+            <li class="col-3"><a href="./game.html">Game</a></li>
+            <li class="col-3"><a href="./contact.html">Contact</a></li>
+            <li class="col-3"><a href="./gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <div class="margin-top-20 row">
+        <aside class="col-3 col-s-12" id="asideContainer">
+            <div>
+                <h3>Explore Teruel.</h3>
+                <ul id="linkList">
+                    <!-- Links will be dynamically added here -->
+                </ul>
+            </div>
+        </aside>
+        <main class="col-9 col-s-12">
+            <article class="row">
+                <div class="col-3 col-s-12">
+                    <img src="./images/game/Catedral_de_Teruel.jpg" alt="City of love" />
+                </div>
+                <div class="col-8 col-s-12 margin-20">
+                    <h2>Questionnaire</h2>
+                    <p><b>Answer the following questions:</b></p>
+                    <p>1. In which month are the celebrations of the Lovers of Teruel held?</p>
+                    <input type="text" name="celebrations" id="q1" />
+                    <br>
+                    <p>
+                        2. What is in the main square of Teruel?
+                    </p>
+                    <input type="text" name="square" id="q2" />
+                    <br><br>
+                    <p>3. How many lovers were there in Teruel?</p>
+                    <select id="q3">
+                        <option value="empty">Number</option>
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                    </select>
+                    <br>
+                    <p>4. Who were the most important characters in the story of the Lovers of Teruel?</p>
+                    <input type="checkbox" name="lover" value="Diego" id="q41" /> Diego Marcilla<br>
+                    <input type="checkbox" name="lover" value="Isabel" id="q42" /> Isabel de Segura<br>
+                    <input type="checkbox" name="lover" value="Padre" id="q43" /> Felipe II<br>
+                    <input type="checkbox" name="lover" value="Familia" id="q44" /> Cristobal Colon<br>
+                    <input type="checkbox" name="lover" value="Pedro" id="q45" /> El Cid Campeador<br>
+                    <br>
+                    <p>5. What is the traditional folk dance of Teruel?</p>
+                    <input type="radio" name="dance" value="jota" id="q51" />
+                    Jota<br>
+                    <input type="radio" name="dance" value="sardana" id="q52" />
+                    Sardana<br>
+                    <input type="radio" name="dance" value="sevillanas" id="q53" />
+                    Sevillanas<br>
+                    <input type="radio" name="dance" value="flamenco" id="q54" />
+                    Flamenco<br>
+                    <br>
+                    <button onclick="check()">Check</button>
+                    <p id="mark"></p>
+                    <p id="feedback"></p>
+                </div>
+
+                <img id="scroll-to-top" onclick="scrollToTop()" src="./images/up-arrow.png" alt="top button">
+            </article>
+        </main>
+    </div>
+
+    <footer class="col-12 col-s-12 margin-top-20">
+        <p>&copy; 2023 Adela Montaner - Markup Language | First course of ASIR</p>
+        <p>
+            <strong>HTML Validator: </strong> Document checking completed. No errors
+            or warnings to show.
+        </p>
+    </footer>
+
+</body>
+
+</html>

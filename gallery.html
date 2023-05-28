@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/common/w3.css" />
+  <link rel="stylesheet" href="./css/common/common_style.css" />
+  <link rel="stylesheet" href="./css/pages/gallery_style.css" />
+  <script src="./js/script-common.js"></script>
+  <title>Teruel city of love. History.</title>
+</head>
+<!--
+    @media only screen and (min-width: 400px)
+    @media only screen and (min-width: 768px)
+-->
+
+<body>
+  <header class="col-12 col-s-12">
+    <h1>Teruel city of lovers.</h1>
+  </header>
+
+  <nav>
+    <ul class="menu_movil menu_drop">
+      <li>
+        <a href="#menu" class="size_icon"> <i class="fa fa-bars"></i> </a>
+        <ul>
+          <li class="col-s-3"><a href="./index.html">Home</a></li>
+          <li class="col-s-3"><a href="./game.html">Game</a></li>
+          <li class="col-s-3"><a href="./contact.html">Contact</a></li>
+          <li class="col-s-3"><a href="./gallery.html">Gallery</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="menu_pc menu_drop">
+      <li class="col-3"><a href="./index.html">Home</a></li>
+      <li class="col-3"><a href="./game.html">Game</a></li>
+      <li class="col-3"><a href="./contact.html">Contact</a></li>
+      <li class="col-3"><a href="./gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <div class="margin-top-20 row">
+    <aside class="col-3 col-s-12" id="asideContainer">
+      <div>
+          <h3>Explore Teruel.</h3>
+          <ul id="linkList">
+              <!-- Links will be dynamically added here -->
+          </ul>
+      </div>
+  </aside>
+    <main class="col-9 col-s-12">
+      <article class="row">
+        <div class="col-12 col-s-12 margin-20">
+          <h2>Image gallery.</h2>
+          <div class="gallery">
+
+            <figure class="image col-3 col-s-12">
+              <img src="./images/gallery/image1.jpg" alt="Mudejar braid" />
+              <figcaption>Mudejar braid</figcaption>
+            </figure>
+
+            <figure class="image col-3 col-s-12">
+              <img src="./images/gallery/image2.jpg" alt="The Cathedral" />
+              <figcaption>The Cathedral</figcaption>
+            </figure>
+
+            <figure class="image col-3 col-s-12">
+              <img src="./images/gallery/image3.jpg" alt="Lover's hands" />
+              <figcaption>Lover's hands</figcaption>
+            </figure>
+
+            <figure class="image col-3 col-s-12">
+              <img src="./images/gallery/image4.jpg" alt="Popular festival" />
+              <figcaption>Popular festival</figcaption>
+            </figure>
+
+            <figure class="image col-3 col-s-12">
+              <img src="./images/gallery/image5.jpg" alt="Oval staircase" />
+              <figcaption>Oval staircase </figcaption>
+            </figure>
+
+            <figure class="image col-3 col-s-12">
+              <img src="./images/gallery/image6.jpg" alt="Oval staircase" />
+              <figcaption>Oval staircase</figcaption>
+            </figure>
+
+            <figure class="image col-3 col-s-12">
+              <img src="./images/gallery/image7.jpg" alt="Torico" />
+              <figcaption>Torico</figcaption>
+            </figure>
+
+            <figure class="image col-3 col-s-12">
+              <img src="./images/gallery/image8.jpeg" alt="Torico Square" />
+              <figcaption>Torico Square</figcaption>
+            </figure>
+          </div>
+
+          <!-- Modal -->
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img src="./images/gallery/html5_logo.png" class="modal-content" id="modalImage" alt="modal" />
+            <div id="caption"></div>
+          </div>
+
+          <script src="./js/script-gallery.js"></script>
+        </div>
+        <img id="scroll-to-top" onclick="scrollToTop()" src="./images/up-arrow.png" alt="top button">
+      </article>
+    </main>
+  </div>
+
+  <footer class="col-12 col-s-12 margin-top-20">
+    <p>&copy; 2023 Adela Montaner - Markup Language | First course of ASIR</p>
+    <p>
+      <strong>HTML Validator: </strong> Document checking completed. No errors
+      or warnings to show.
+    </p>
+  </footer>
+
+</body>
+
+</html>
